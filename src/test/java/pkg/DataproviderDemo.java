@@ -22,7 +22,6 @@ public class DataproviderDemo {
 			WebDriverManager.firefoxdriver().setup();
 			driver=new FirefoxDriver();
 		}
-		
 		else {
 			System.out.println("There are no any browser available ");
 		}
